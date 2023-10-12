@@ -10,6 +10,7 @@
         position: relative;
 
         .cs-container {
+            padding-top:100px;
             width: 100%;
             max-width: calc(1280 / 16 * 1rem);
             margin: auto;
@@ -150,6 +151,8 @@
 
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
+    
+    
     #hero-670 {
         /* 120px - 250px top */
         /* 60px - 200px  bottom */
@@ -157,6 +160,8 @@
             clamp(3.75rem, 15.82vw, 12.5rem);
 
         .cs-container {
+           
+                padding-top:0px;
             flex-direction: row;
             justify-content: flex-start;
         }
